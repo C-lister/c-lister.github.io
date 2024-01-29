@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Graft: Efficient Inference Serving for Hybrid Deep Learning With SLO Guarantees via DNN Re-Alignment"
+date:   2023-11-20 12:00:00 +00:00
+image: /images/graft.png
+categories: research
+author: "Jing Wu"
+authors: "Lin Wang, <strong>Qirui Jin</strong>"
+venue: "IEEE Transactions on Parallel and Distributed Systems"
+paper: 
+---
+A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
