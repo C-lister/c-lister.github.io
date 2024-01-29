@@ -5,8 +5,8 @@ date:   2023-11-20 12:00:00 +00:00
 image: /images/graft.png
 categories: research
 author: "Jing Wu"
-authors: "Lin Wang, <strong>Qirui Jin</strong>"
+authors: "Jing Wu, Lin Wang, <strong>Qirui Jin</strong>, Fangming Liu"
 venue: "IEEE Transactions on Parallel and Distributed Systems"
-paper: 
+arxiv: https://arxiv.org/abs/2312.10636
 ---
 A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
