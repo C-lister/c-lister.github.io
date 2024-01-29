@@ -34,10 +34,7 @@
               <h1>
                 Qirui Jin
               </h1>
-              <p>I am a third-year Undergraduate student at the <a href="https://umich.edu/">University of Michigan</a>, majoring in Computer Science, advised by <a href="https://sites.google.com/site/kexinpeisite/">Kexin Pei</a>.
-              </p>
-              <p>
-                Prior to that, Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
+              <p>I am a third-year Undergraduate student at the <a href="https://umich.edu/">University of Michigan</a>, majoring in Computer Science, advised by <a href="https://sites.google.com/site/kexinpeisite/">Kexin Pei</a>. Prior to transfering to Umich, I study at Huazhong University of Science and Technology.
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="https://mailhide.io/e/tMoRJO7J"> Email</a> &nbsp;/&nbsp;
@@ -56,7 +53,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
+                My research interests are Robust Machine Learning, AI for Software Engineering.
               </p>
             </td>
           </tr>
@@ -79,25 +76,13 @@
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              <a href="{{post.arxiv}}">arxiv</a>
               {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              {% if post.paper %}
+              <a href="{{post.paper}}">arxiv</a>
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              / <a href="{{post.code}}">code</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
