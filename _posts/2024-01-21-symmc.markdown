@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Symmetry-Preserving Program Representations for Learning Code Semantics"
-date: 2024-01-21 12:00:00 +00:00
+date: 2024-05-01 12:00:00 +00:00
 image: /images/symmc.png
 categories: research
 author: "Kexin Pei"
 authors: "Kexin Pei, Weichen Li*, <strong>Qirui Jin*</strong>, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana (* equal contribution)"
-venue: "MAPS@ESEC/FSE"
+venue: "ICML"
 arxiv: https://arxiv.org/abs/2308.03312
 ---
