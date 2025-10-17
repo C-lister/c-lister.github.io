@@ -5,7 +5,7 @@
     "authors": "Zhouxing Shi*, <strong><u>Qirui Jin*</u></strong>, Zico Kolter, Suman Jana, Cho-Jui Hsieh, Huan Zhang",
     "type": "accepted",
     "isFirstAuthor": true,
-    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems.",
+    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems",
     "tags": [
       {
         "text": "TACAS'25",
@@ -30,7 +30,7 @@
     "authors": "Kexin Pei, Weichen Li*, <strong><u>Qirui Jin*</u></strong>, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana",
     "type": "accepted",
     "isFirstAuthor": false,
-    "venue": "International Conference on Machine Learning.",
+    "venue": "International Conference on Machine Learning",
     "tags": [
       {
         "text": "ICML'24 Spotlight",
@@ -50,7 +50,7 @@
     "authors": "Jing Wu, Lin Wang, <strong><u>Qirui Jin</u></strong>, Fangming Liu",
     "type": "accepted",
     "isFirstAuthor": false,
-    "venue": "IEEE Transactions on Parallel and Distributed Systems.",
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
     "tags": [
       {
         "text": "TPDS",
