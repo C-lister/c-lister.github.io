@@ -1,0 +1,66 @@
+[
+  {
+    "number": 1,
+    "title": "Neural network verification with branch-and-bound for general nonlinearities",
+    "authors": "Zhouxing Shi*, <strong><u>Qirui Jin*</u></strong>, Zico Kolter, Suman Jana, Cho-Jui Hsieh, Huan Zhang",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems.",
+    "tags": [
+      {
+        "text": "TACAS'25",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2405.21063"
+      },
+      {
+        "text": "Code",
+        "class": "code-tag",
+        "link": "https://github.com/Verified-Intelligence/alpha-beta-CROWN"
+      }
+    ]
+  },
+
+  {
+    "number": 2,
+    "title": "Exploiting code symmetries for learning program semantics",
+    "authors": "Kexin Pei, Weichen Li*, <strong><u>Qirui Jin*</u></strong>, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "venue": "International Conference on Machine Learning.",
+    "tags": [
+      {
+        "text": "ICML'24 Spotlight",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "https://arxiv.org/pdf/2308.03312"
+      }
+    ]
+  },
+
+  {
+    "number": 3,
+    "title": "Graft: Efficient inference serving for hybrid deep learning with SLO guarantees via DNN re-alignment",
+    "authors": "Jing Wu, Lin Wang, <strong><u>Qirui Jin</u></strong>, Fangming Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems.",
+    "tags": [
+      {
+        "text": "TPDS",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "https://arxiv.org/pdf/2312.10636"
+      }
+    ]
+  }
+] 
