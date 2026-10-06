@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qirui Jin is a Computer Science PhD student at Georgia Tech researching LLM reasoning, AI for code, and agent security.">
+    <title>Qirui Jin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-info">
+                    <!-- Profile info will be loaded from JSON -->
+                </div>
+                <div class="profile-image">
+                    <img src="assets/profile.jpg" id="profile-img" alt="Qirui Jin">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#about" class="active">Biography</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#location">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Biography</h2>
+                <div class="about-content">
+                    <p>Hi! I'm <b>Qirui Jin</b>, a second-year Computer Science PhD student at <a href="https://gatech.edu/">Georgia Institute of Technology</a>, advised by <a href="https://wenke.gtisc.gatech.edu/"><b>Prof. Wenke Lee</b></a>. I also work closely with <a href="https://sites.google.com/site/kexinpeisite/">Prof. Kexin Pei</a>. I obtained my bachelor's degree in Computer Science from <a href="https://umich.edu/">University of Michigan</a>. My research interests include <b>LLM Reasoning</b>, <b>AI for Code</b>, and <b>Agent Security</b>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="edu-content-wrapper">
+                                <div class="edu-text">
+                                    <h3>PhD @ Georgia Institute of Technology (Georgia Tech)</h3>
+                                    <p class="timeline-date">Aug. 2025 – Present</p>
+                                    <p>Computer Science</p>
+                                    <p>Supervisor: <a href="https://wenke.gtisc.gatech.edu/">Prof. Wenke Lee</a> </p>
+                                </div>
+                                <div class="school-logo">
+                                    <img src="assets/gt.svg" alt="Georgia Institute of Technology" class="edu-logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="edu-content-wrapper">
+                                <div class="edu-text">
+                                    <h3>BS @ University of Michigan (UMich)</h3>
+                                    <p class="timeline-date">Aug. 2020 – Apr. 2025</p>
+                                    <p>Computer Science</p>
+                                    
+                                </div>
+                                <div class="school-logo">
+                                    <img src="assets/um.svg" alt="University of Michigan" class="edu-logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Open-Source Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <h3><a href="https://github.com/microsoft/SWE-bench-Live">SWE-bench-Live</a></h3>
+                        </div>
+                        <div class="project-content">
+                            <p>Regularly updated multilingual benchmark and task-curation pipeline for evaluating coding agents.</p>
+                            <a class="tag code-tag" href="https://github.com/microsoft/SWE-bench-Live/stargazers" data-github-repo="microsoft/SWE-bench-Live"><i class="fas fa-star" aria-hidden="true"></i> <span class="star-count">Stars on GitHub</span></a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-header">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <h3><a href="https://github.com/microsoft/RepoLaunch">RepoLaunch</a></h3>
+                        </div>
+                        <div class="project-content">
+                            <p>LLM-agent tool for automating repository setup, builds, and tests across programming languages and platforms.</p>
+                            <a class="tag code-tag" href="https://github.com/microsoft/RepoLaunch/stargazers" data-github-repo="microsoft/RepoLaunch"><i class="fas fa-star" aria-hidden="true"></i> <span class="star-count">Stars on GitHub</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <div class="container">
+                <h2 class="section-title">Publications &amp; Preprints</h2>
+                <p class="section-description">* Equal contribution</p>
+                <div class="publication-filter">
+                    <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-btn" data-filter="preprint" aria-pressed="false">Preprints</button>
+                    <button class="filter-btn" data-filter="accepted" aria-pressed="false">Accepted</button>
+                    <button class="filter-btn" data-filter="first-author" aria-pressed="false">First Author</button>
+                </div>
+                <div class="publications-list">
+                    <!-- Publications items will be dynamically loaded here from publications.json -->
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="location-content">
+                    <div class="address-container">
+                        <div class="address-info">
+                            <h3>Office Address</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> 756 W Peachtree St NW, Atlanta, GA 30308, USA</p>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe 
+                            title="Office location at Coda, Georgia Tech"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.434929680024!2d-84.39021752456392!3d33.77526507326257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5046677950223%3A0x7fd1ad077b382c98!2sCoda!5e0!3m2!1sen!2sus!4v1760672775999!5m2!1sen!2sus"
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+                <div style="width: 15%; height: auto; margin: auto;">
+                    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=pPiz2dMusKhvtmN5y3gB5BbQ_UIdqtIPcND9IacEOf4"></script>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> <a href="https://github.com/dl-m9/academic-homepage-modernism">Template</a>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Mobile navigation horizontal scroll handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks) {
+                // Check if scrollable
+                const checkScrollable = () => {
+                    const isScrollable = navLinks.scrollWidth > navLinks.clientWidth;
+                    document.querySelector('nav .container').classList.toggle('has-scroll', isScrollable);
+                };
+                
+                // Check on load and resize
+                checkScrollable();
+                window.addEventListener('resize', checkScrollable);
+                
+                // Scroll to active link
+                const activeLink = navLinks.querySelector('a.active');
+                if (activeLink) {
+                    const activeLi = activeLink.closest('li');
+                    if (activeLi) {
+                        setTimeout(() => {
+                            // Center the active link
+                            const scrollPos = activeLi.offsetLeft - (navLinks.clientWidth / 2) + (activeLi.offsetWidth / 2);
+                            navLinks.scrollLeft = Math.max(0, scrollPos);
+                        }, 100);
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html> 

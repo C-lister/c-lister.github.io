@@ -1,0 +1,193 @@
+[
+  {
+    "title": "PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents",
+    "authors": "Zhenbang Du, Jun Luo, Zhiwei Zheng, Xiangchi Yuan, Kejing Xia, Dachuan Shi, <strong><u>Qirui Jin</u></strong>, Qijia He, Shaofeng Zou, Yingbin Liang, Wenke Lee",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "venue": "Under review",
+    "tags": [
+      {
+        "text": "Preprint",
+        "class": "preprint-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2606.16215"
+      }
+    ],
+    "number": 1
+  },
+  {
+    "title": "ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Agents",
+    "authors": "Kenan Li*, <strong><u>Qirui Jin*</u></strong>, Liao Zhu, Xiaosong Huang, Yijia Wu, Yikai Zhang, Xin Zhang, Zijian Jin, Yufan Huang, Elsie Nallipogu, Chaoyun Zhang, Yu Kang, Saravan Rajmohan, Qingwei Lin, Wenke Lee, Dongmei Zhang",
+    "type": "preprint",
+    "isFirstAuthor": true,
+    "venue": "Under review",
+    "tags": [
+      {
+        "text": "Preprint",
+        "class": "preprint-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2604.07789"
+      }
+    ],
+    "number": 2
+  },
+  {
+    "title": "RepoLaunch: Automating Build and Management of Code Repositories across Languages and Platforms",
+    "authors": "Kenan Li*, Rongzhi Li*, Linghao Zhang*, <strong><u>Qirui Jin*</u></strong>, Liao Zhu*, Xiaosong Huang, Geng Zhang, Yikai Zhang, Shilin He, Chengxing Xie, Xin Zhang, Zijian Jin, Bowen Li, Chaoyun Zhang, Yu Kang, Yufan Huang, Elsie Nallipogu, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "venue": "Neural Information Processing Systems",
+    "tags": [
+      {
+        "text": "NeurIPS 2026",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2603.05026"
+      },
+      {
+        "text": "Code",
+        "class": "code-tag",
+        "link": "https://github.com/microsoft/RepoLaunch"
+      }
+    ],
+    "number": 3
+  },
+  {
+    "title": "ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance",
+    "authors": "<strong><u>Qirui Jin</u></strong>, Lingching Tung, Kenan Li, Qiyang Shi, Yushi She, Huanzhong Jia, Harrison Zhao, Kejing Xia, Zhenbang Du, Jiaxin Pei, Zhenyu Zhang, Zhen Qi, Yuyan Duan, Wenke Lee, Zijian Jin",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "venue": "Empirical Methods in Natural Language Processing",
+    "tags": [
+      {
+        "text": "EMNLP 2026 Main",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2607.02606"
+      }
+    ],
+    "number": 4
+  },
+  {
+    "title": "SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent",
+    "authors": "Yikai Zhang, Jiaxin Pei, Kenan Li, <strong><u>Qirui Jin</u></strong>, Maoquan Wang, Jin Pan, Yu Kang, Shengyu Fu, Elsie Nallipogu, Junjie Hu, Yufan Huang, Zijian Jin",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "tags": [
+      {
+        "text": "EMNLP 2026 Findings",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2604.26102"
+      },
+      {
+        "text": "Code",
+        "class": "code-tag",
+        "link": "https://github.com/microsoft/SWE-Edit"
+      }
+    ],
+    "number": 5
+  },
+  {
+    "title": "MetaState: Persistent Working Memory for Discrete Diffusion Language Models",
+    "authors": "Kejing Xia, Mingzhe Li, Lixuan Wei, Zhenbang Du, Xiangchi Yuan, Dachuan Shi, <strong><u>Qirui Jin</u></strong>, Wenke Lee",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "venue": "Conference on Language Modeling",
+    "tags": [
+      {
+        "text": "COLM 2026",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2603.01331"
+      },
+      {
+        "text": "Code",
+        "class": "code-tag",
+        "link": "https://github.com/Les1a/MetaState"
+      }
+    ],
+    "number": 6
+  },
+  {
+    "number": 7,
+    "title": "Neural Network Verification with Branch-and-Bound for General Nonlinearities",
+    "authors": "Zhouxing Shi*, <strong><u>Qirui Jin*</u></strong>, Zico Kolter, Suman Jana, Cho-Jui Hsieh, Huan Zhang",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems",
+    "tags": [
+      {
+        "text": "TACAS 2025",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2405.21063"
+      },
+      {
+        "text": "Code",
+        "class": "code-tag",
+        "link": "https://github.com/Verified-Intelligence/alpha-beta-CROWN"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Exploiting Code Symmetries for Learning Program Semantics",
+    "authors": "Kexin Pei, Weichen Li*, <strong><u>Qirui Jin*</u></strong>, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "venue": "International Conference on Machine Learning",
+    "tags": [
+      {
+        "text": "ICML 2024 · Spotlight Top-3.5%",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://arxiv.org/abs/2308.03312"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Graft: Efficient inference serving for hybrid deep learning with SLO guarantees via DNN re-alignment",
+    "authors": "Jing Wu, Lin Wang, <strong><u>Qirui Jin</u></strong>, Fangming Liu",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "tags": [
+      {
+        "text": "IEEE TPDS 2023",
+        "class": "venue-tag"
+      },
+      {
+        "text": "Paper",
+        "class": "code-tag",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10347464"
+      }
+    ]
+  }
+]
