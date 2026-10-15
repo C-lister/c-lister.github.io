@@ -1,0 +1,30 @@
+{
+  "name": "QIRUI JIN 🐈",
+  "subtitle": "PhD@CS, Georgia Tech<br>BS@CS, UMich",
+  "socialLinks": [
+    {
+      "type": "email",
+      "url": "mailto:qiruijin@gatech.edu",
+      "icon": "<i class=\"fas fa-envelope\"></i>"
+    },
+    {
+      "type": "googleScholar",
+      "url": "https://scholar.google.com/citations?user=0g6YBJMAAAAJ",
+      "icon": "<i class=\"fas fa-graduation-cap\"></i>",
+      "target": "_blank"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/qirui-jin-7b8022276/",
+      "icon": "<i class=\"fab fa-linkedin\"></i>",
+      "target": "_blank"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/C-lister",
+      "icon": "<i class=\"fab fa-github\"></i>",
+      "target": "_blank"
+    }
+  ],
+  "profileImage": "assets/profile.jpg"
+} 
